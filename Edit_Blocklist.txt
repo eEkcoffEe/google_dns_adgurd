@@ -5,9 +5,7 @@
 #  doubleclick subdomains
 #  google syndication subdomains
 #  2mdn subdomains
-#  youtube ad-specific subdomains
 #  google ad services
-#  moat ads youtube analytics
 #  innovid ad tracking
 #  freewheel ad tracking
 #  adform
@@ -103,7 +101,6 @@ account-google.support
 accounts.doubleclick.net
 account-safety-google.com
 ad.doubleclick.net
-ad.youtube.com
 adclick.g.doubleclick.net
 ad-creatives-public.commondatastorage.googleapis.com
 ade.googlesyndication.com
@@ -241,7 +238,6 @@ admob.googleapis.com
 ads.doubleclick.net
 ads.google.cn
 ads.google.com
-ads.youtube.com
 adsafeprotected.com
 adsense.google.ac
 adsense.google.ad
