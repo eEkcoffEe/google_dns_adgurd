@@ -1,194 +1,25 @@
-# 
+#
 # section 1 dns-level domain blocking
-# 
-
-#  core google ad domains 
-2mdn.net
-doubleclick.net
-doubleclick.com
-googlesyndication.com
-googletagservices.com
-googleadservices.com
-googleads.com
-
-#  doubleclick subdomains 
-ad.doubleclick.net
-ad-emea.doubleclick.net
-ad-g.doubleclick.net
-ads.doubleclick.net
-adclick.g.doubleclick.net
-creatives.doubleclick.net
-fls.doubleclick.net
-g.doubleclick.net
-googleads.g.doubleclick.net
-googleads2.g.doubleclick.net
-googleads4.g.doubleclick.net
-pubads.g.doubleclick.net
-securepubads.g.doubleclick.net
-stats.g.doubleclick.net
-static.doubleclick.net
-pagead.l.doubleclick.net
-dart.l.doubleclick.net
-partnerad.l.doubleclick.net
-m.doubleclick.net
-s0.doubleclick.net
-accounts.doubleclick.net
-dfp.doubleclick.net
-mediavisor.doubleclick.net
-iv.doubleclick.net
-
-#  google syndication subdomains 
-pagead.googlesyndication.com
-pagead1.googlesyndication.com
-pagead2.googlesyndication.com
-tpc.googlesyndication.com
-ade.googlesyndication.com
-c.googlesyndication.com
-safeframe.googlesyndication.com
-afs.googlesyndication.com
-
-#  2mdn subdomains 
-s0.2mdn.net
-s1.2mdn.net
-s2.2mdn.net
-m.2mdn.net
-m1.2mdn.net
-static.2mdn.net
-gcdn.2mdn.net
-affiliate.2mdn.net
-
-#  youtube ad-specific subdomains 
-ad.youtube.com
-ads.youtube.com
-
-#  google ad services 
-pagead2.googleadservices.com
-partner.googleadservices.com
-adservice.google
-afs.googleadservices.com
-
-#  moat ads youtube analytics 
-moatads.com
-yt.moatads.com
-yts.moatads.com
-pixel.moatads.com
-
-#  innovid ad tracking 
-innovid.com
-dts.innovid.com
-s.innovid.com
-
-#  freewheel ad tracking 
-fwmrm.net
-v.fwmrm.net
-
-#  adform 
-adform.net
-files.adform.net
-
-#  adsafe protected 
-adsafeprotected.com
-pixel.adsafeprotected.com
-
-#  fastclick 
-fastclick.net
-cdn.fastclick.net
-media.fastclick.net
-
-#  tubemogul 
-tubemogul.com
-rtd.tubemogul.com
-
-#  cc-dt creative 
-cc-dt.com
-creative.cc-dt.com
-
-#  flashtalking 
-flashtalking.com
-
-#  regional variants 
-doubleclick.de
-doubleclick-cn.net
-doubleclick.host
-doubleclick.ne.jp
-doubleclickads.net
-doubleclickbygoogle.com
-doubleclicksearch.com
-googlesyndication-cn.com
-tpc.googlesyndication-cn.com
-googletagservices-cn.com
-googleadservices-cn.com
-googleadsserving.cn
-2mdn-cn.net
-2mdnsys.com
-rr3---sn-aj5go5-53.googlevideo.com
-rr2---sn-aj5go5-53.googlevideo.com
-redirector.googlevideo.com
-play.google.com
-lh3.googleusercontent.com
-lh3.google.com
-clientservices.googleapis.com
-android.googleapis.com
-rr5---sn-gxuo03g-3c2s.googlevideo.com
-optimizationguide-pa.googleapis.com
+#
+#  core google ad domains
+#  doubleclick subdomains
+#  google syndication subdomains
+#  2mdn subdomains
+#  youtube ad-specific subdomains
+#  google ad services
+#  moat ads youtube analytics
+#  innovid ad tracking
+#  freewheel ad tracking
+#  adform
+#  adsafe protected
+#  fastclick
+#  tubemogul
+#  cc-dt creative
+#  flashtalking
+#  regional variants
 #get-google-domains.ps1
-a8.xn--google-873exa8m6161dbbyb.net
-ad-creatives-public.commondatastorage.googleapis.com
-ade.googlesyndication.com
-adservice.google
-adservice.google.com
-adservice.google.se
-adtrafficquality.google
-afs.googlesyndication.com
-analytics.google.com
-androidtvchannels-pa.googleapis.com
-androidtvwatsonfe-pa.googleapis.com
-api.ocarinhadogoogle.com.br
-attributiontrackingga.googlecode.com
-clouderrorreporting.googleapis.com
-dns-tunnel-check.googlezip.net.iberostar.com
-fcmatch.google.com
-federatedcompute-pa.googleapis.com
-googleads.github.io
-google-ads.hara.vn
-googleads-cn.com
-googleadservices.com
-googleadservices-cn.com
-googleadsserving.cn
-googleailesi.com
-google-analyticals.com
-google-analytics.bi.owox.com
-google-analytics.com
-google-analytics-cn.com
-googleapi.club
-googleoptimize-cn.com
-google-pagerank.net
-googlerank.info
-googles.video
-googleshopping.sapoapps.vn
-google-shopping.sapoapps.vn
-google-shopping-v2.sapoapps.vn
-googletagmanager-cn.com
-googlevads-cn.com
-kmmgoogle.oss-ap-southeast-1.aliyuncs.com
-mail-ads.google.com
-myscoop-tracking.googlecode.com
-ogads-pa.clients6.google.com
-ogads-pa.googleapis.com
-pagead2.googlesyndication.com
-partnerad.l.google.com
-play.appgoogle.cc
-playgooglevn.vip
-pornogoogle.info
-s1.dugoogle.com
-safeframe.googlesyndication.com
-server.googledominado.com.br
-ssl-google-analytics.l.google.com
-tpc.googlesyndication.com
-trakksocial.googlecode.com
-video-ad-stats.googlesyndication.com
-www-google-analytics.l.google.com
 #get-multi-domains.ps1
+
 0066-google.com
 0-09-preview-google-ads-bump.data.taxfix.tech
 10923-google.com
@@ -218,6 +49,9 @@ www-google-analytics.l.google.com
 237195-google.com
 255793google.com
 28735-google.com
+2mdn.net
+2mdn-cn.net
+2mdnsys.com
 312-google.com
 326129-google.com
 333-google.com
@@ -266,13 +100,20 @@ account-ad-google.com
 account-google.forum
 account-google.live
 account-google.support
+accounts.doubleclick.net
 account-safety-google.com
+ad.doubleclick.net
+ad.youtube.com
+adclick.g.doubleclick.net
 ad-creatives-public.commondatastorage.googleapis.com
 ade.googlesyndication.com
+ad-emea.doubleclick.net
 adexchange.googleapis.com
 adexchangebuyer.googleapis.com
 adexchangebuyer-json.googleapis.com
 adexchangeseller.googleapis.com
+adform.net
+ad-g.doubleclick.net
 adgoogle.net
 admob.google.ac
 admob.google.ad
@@ -397,8 +238,11 @@ admob.google.vn
 admob.google.vu
 admob.google.ws
 admob.googleapis.com
+ads.doubleclick.net
 ads.google.cn
 ads.google.com
+ads.youtube.com
+adsafeprotected.com
 adsense.google.ac
 adsense.google.ad
 adsense.google.ae
@@ -851,6 +695,8 @@ adwords.google.vu
 adwords.google.ws
 adwords.l.google.com
 adwordsgoogle.com
+affiliate.2mdn.net
+afs.googleadservices.com
 afs.googlesyndication.com
 afs.googleusercontent.com
 a-google.hl.cn
@@ -907,6 +753,7 @@ analyticsmobile-pa.googleapis.com
 analyticsreporting.googleapis.com
 analyticssearch-pa.googleapis.com
 analyticssuitefrontend-pa.clients6.google.com
+android.googleapis.com
 android-context-data.googleapis.com
 androidtvchannels-pa.googleapis.com
 androidtvwatsonfe-pa.googleapis.com
@@ -927,9 +774,12 @@ begoogle.com.cn
 b-google.hl.cn
 bing-google.hl.cn
 blogergadgets.googlecode.com
+c.googlesyndication.com
 cagoogle.com
+cc-dt.com
 cc-google.com.cn
 cct.google
+cdn.fastclick.net
 ch-google.cc
 chhrromme-google.hl.cn
 chlrome-google.hl.cn
@@ -954,6 +804,7 @@ chrooome-google.hl.cn
 chrrome-google.hl.cn
 chrromme-google.hl.cn
 clientmetrics-pa.googleapis.com
+clientservices.googleapis.com
 clienttracing-pa.googleapis.com
 cloudaudit.googleapis.com
 clouderrorreporting.googleapis.com
@@ -979,10 +830,14 @@ content-partnersbadge-pa.googleapis.com
 contributor.google.com
 crashlytics2.l.google.com
 crashlyticsreports-pa.googleapis.com
+creative.cc-dt.com
+creatives.doubleclick.net
 csp.withgoogle.com
+dart.l.doubleclick.net
 datasaver.googleapis.com
 dbs-pa.googleapis.com
 dfareporting.googleapis.com
+dfp.doubleclick.net
 dgf-google.com.cn
 d-google.com.cn
 d-google.hl.cn
@@ -990,31 +845,47 @@ dhlgoogle.xyz
 displayads-formats.googleusercontent.com
 dns-tunnel-check.googlezip.net.iberostar.com
 document-via-google-doc.bottlerockethq.com
+doubleclick.com
+doubleclick.de
+doubleclick.host
+doubleclick.ne.jp
+doubleclick.net
+doubleclickads.net
 doubleclickbidmanager.googleapis.com
 doubleclickbygoogle.com
+doubleclick-cn.net
+doubleclicksearch.com
 doubleclicksearch.googleapis.com
 download-google.hl.cn
 dpl-pr-googletm-tagging-1717453208.eu-central-1.elb.amazonaws.com
+dts.innovid.com
 easy-google-analytics-4.myshopify.com
 e-google.hl.cn
 embed-c-google-analytics.resolution-cloud.com
 espresso-pa.clients6.google.com
+fastclick.net
 fcmatch.google.com
 federatedcompute-pa.googleapis.com
 feedback-pa.clients6.google.com
 feedback-pa.googleapis.com
 feedburner.google.com
 f-google.hl.cn
+files.adform.net
 firebasecrashlytics.googleapis.com
 firebasecrashlyticssymbols.googleapis.com
 firebaselogging.googleapis.com
 firebaselogging-pa.googleapis.com
 firebasepredictions.googleapis.com
 firewallinsights.googleapis.com
+flashtalking.com
+fls.doubleclick.net
 footprints-pa.googleapis.com
 fundingchoices.google.com
 fundingchoicesmessages.google.com
+fwmrm.net
+g.doubleclick.net
 gapromomanager-pa.googleapis.com
+gcdn.2mdn.net
 g-chrome-google.com.cn
 gellar-pa.googleapis.com
 geller-pa.googleapis.com
@@ -1042,8 +913,11 @@ google32.m4ntapaset.ink
 googleadapis.com
 googleads.com
 google-ads.e.jimdo.com
+googleads.g.doubleclick.net
 googleads.github.io
 google-ads.hara.vn
+googleads2.g.doubleclick.net
+googleads4.g.doubleclick.net
 googleads-cn.com
 googleadservice.com
 googleadservices.com
@@ -1245,7 +1119,9 @@ id.google.sk
 id.l.google.com
 i-google.hl.cn
 infinitedata-pa.googleapis.com
+innovid.com
 ir-google.hl.cn
+iv.doubleclick.net
 j-google.hl.cn
 jmt17.google.com
 jp-google.hl.cn
@@ -1257,6 +1133,8 @@ kkd-google.com.cn
 kmmgoogle.oss-ap-southeast-1.aliyuncs.com
 kr-google.hl.cn
 lamssettings-pa.googleapis.com
+lh3.google.com
+lh3.googleusercontent.com
 localservices.googleapis.com
 locationhistoryaggregates-pa.googleapis.com
 locationhistory-pa.googleapis.com
@@ -1265,12 +1143,18 @@ log.googlebuffer.com
 logging.clients6.google.com
 logging.googleapis.com
 logging-alv.googleapis.com
+m.2mdn.net
+m.doubleclick.net
+m1.2mdn.net
 mail-ads.google.com
 map.google.no
 marketingplatformadmin.googleapis.com
 mdh-pa.googleapis.com
+media.fastclick.net
+mediavisor.doubleclick.net
 meshtelemetry.googleapis.com
 mirror-google.com
+moatads.com
 mobilecrashreporting.googleapis.com
 mobile-google.cn
 mobilenetworkscoring-pa.googleapis.com
@@ -1288,14 +1172,21 @@ olx.pl-oferta127439-google-pixel-10-pro-xl.cfd
 olx.pl-oferta50538-google-pixel-9-12-256-gb.sbs
 olx.pl-oferta62091-nowy-google-pixel-10-pro-obsidian.sbs
 olx.pl-oferta6583198-google-pixel-10-pro-xl-512.cfd
+optimizationguide-pa.googleapis.com
 optimize.google.com
 out-google.hl.cn
+pagead.googlesyndication.com
+pagead.l.doubleclick.net
 pagead.l.google.com
+pagead1.googlesyndication.com
+pagead2.googleadservices.com
 pagead2.googlesyndication.com
 pagead-googlehosted.l.google.com
 pageadgooglesyndication.com
 pagespeedonline.googleapis.com
 pagooglenbgo.xyz
+partner.googleadservices.com
+partnerad.l.doubleclick.net
 partnerad.l.google.com
 partners-json.googleapis.com
 paypalvsgooglecheckout.com
@@ -1307,9 +1198,12 @@ performanceparameters.googleapis.com
 p-google.cn
 p-google.hl.cn
 ph-google.com.cn
+pixel.adsafeprotected.com
 pixel.google.com
+pixel.moatads.com
 plaay-google.com
 play.appgoogle.cc
+play.google.com
 playapprecommendations.googleapis.com
 playgooglevn.vip
 playmoviesdfe-pa.googleapis.com
@@ -1324,20 +1218,32 @@ plus.url.google.com
 plusone.google.com
 pornogoogle.info
 pplay-google.com
+pubads.g.doubleclick.net
 recommendationengine.googleapis.com
 recommender.googleapis.com
+redirector.googlevideo.com
 region1.google-analytics.com.dvaitas.lt
 region1.google-analytics.com.intern.kommgehweg.de
 retail.googleapis.com
 r-google.hl.cn
 rgooglejubgo.xyz
+rr2---sn-aj5go5-53.googlevideo.com
+rr3---sn-aj5go5-53.googlevideo.com
+rr5---sn-gxuo03g-3c2s.googlevideo.com
+rtd.tubemogul.com
+s.innovid.com
+s0.2mdn.net
+s0.doubleclick.net
+s1.2mdn.net
 s1.dugoogle.com
+s2.2mdn.net
 safeframe.googlesyndication.com
 scone-pa.clients6.google.com
 scone-pa.googleapis.com
 searchads.google.com
 searchlabspartnerservice-pa.googleapis.com
 searchpromo-pa.googleapis.com
+securepubads.g.doubleclick.net
 server.googledominado.com.br
 serves.paypal.dargoogle.com
 service-xvii-google.static.hf.space
@@ -1346,7 +1252,10 @@ s-google.hl.cn
 snake.googlemaps.com
 ssl-google-analytics.l.google.com
 stackdriver.googleapis.com
+static.2mdn.net
+static.doubleclick.net
 static-doubleclick-net.l.google.com
+stats.g.doubleclick.net
 support-google.hl.cn
 surveys.googleapis.com
 tagmanager.google.com
@@ -1358,11 +1267,13 @@ timeseriesinsights.googleapis.com
 toolbar.google.com
 tpc.googlesyndication.com
 tpc.googlesyndication.wiki
+tpc.googlesyndication-cn.com
 tracedepot-pa.clients6.google.com
 tracedepot-pa.googleapis.com
 track.googlespage.com
 track.googleuscontent.com
 trakksocial.googlecode.com
+tubemogul.com
 u-google.hl.cn
 uk-google.hl.cn
 ulp1p-pa.googleapis.com
@@ -1370,6 +1281,7 @@ up-logs-codelab.googleplex.com
 userlocation.googleapis.com
 us-google.hl.cn
 utils-marking-google-analytics.skyairline.com
+v.fwmrm.net
 v-google.hl.cn
 via.google
 video-ad-stats.googlesyndication.com
@@ -1410,6 +1322,8 @@ xgoogle.cn
 x-google.hl.cn
 yagooglepbgo.xyz
 y-google.hl.cn
+yt.moatads.com
+yts.moatads.com
 ytstatic.l.google.com
 zh-cn-google.hl.cn
 zhcn-google-chrome.com
